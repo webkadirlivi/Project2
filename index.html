@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    
+    <title>Livi | Crno</title>
+</head>
+<body>
+    <div id="main">
+        <div data-scroll data-scroll-speed="-5" id="page1">
+            <nav id="nav">
+                <div class="logos">
+                    <img src="stumbleupon.png" alt="">
+                    <span id="mid" >|</span>
+                    <span class="livi">Livi</span>
+                </div>
+                <div class="links">
+                    <a href="">Pods</a>
+                    <a href="">Teknoloji</a>
+                    <a href="">Yapılandırma</a>
+                    <a href="">Ürünler</a>
+                </div>
+                <div class="buttonss">
+                    <button class="nav-btn">
+                        Buy 
+                    </button>
+                    <button class="nav-btn">
+                        Sales
+                    </button>              
+                </div>
+            </nav>
+            <div id="page1-content">
+                <div class="main-livi">
+                    <h1>Livi</h1>
+                </div>
+                <div class="page1-content-in">
+                    <span>The new workspace essential. Create and release...</span>
+                    <button class="primary-btn">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <video class="video" src="https://jetson-2bpzo.ondigitalocean.app/assets/8d49dd3a-fec6-42b5-93dd-52923124935d" autoplay loop muted></video>
+            
+        </div>
+        <div id="page2">
+            <img src="dolap1.png" alt="">
+            <h1>Livi</h1>
+            <h2>An acoustic pod for one. Step inside for a quick call, video meeting, or deep work session to come up with the next big idea.
+                A huddle space for up to four people. Gather your team to talk and debate, free from the distractions of office hustle and bustle.
+            </h2>
+        </div>
+        <div id="page3">
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script src="tree.min.js"></script>
+
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance: '60px',
+            duration: '1000',
+            delay:'10'
+        });
+
+        ScrollReveal().reveal('#page1 #nav', { delay: 10 });
+        ScrollReveal().reveal('#page1 #page1-content', { delay: 10 });
+        
+    </script>
+</body>
+</html>
